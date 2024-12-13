@@ -41,4 +41,16 @@ $akhir= count($array)-1;
 print $akhir;
 echo "ini tipe data array :\n >Elemen pertama :$array[0]\n> Elemen terakhir: $array[$akhir]\n";
 
+// Menentukan tipe data 
+$var = 100;
+var_dump($var);
+
+// soal terakhir.
+$float = 3.14;
+$float*= 2;
+var_dump($float);
+
+$var2 = "123";
+$var_dump($var2);
+echo "\$var2 :$var2 <--- ini tipe datanya string";
 ?>

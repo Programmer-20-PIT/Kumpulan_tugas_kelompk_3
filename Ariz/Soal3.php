@@ -27,7 +27,7 @@ function isbigger($number1,$number3){
 }
 
 function Pembagian($angka1,$angka2){
-    if($angka1 == 0 || $angka2 == 0){
+    if($angka2 == 0){
         echo "Error: tidak bisa membagi dengan angka nol";
     }else{
         return $angka1 / $angka2;

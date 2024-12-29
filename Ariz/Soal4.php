@@ -2,7 +2,7 @@
 class Person{
     public $name,$age;
 
-    function perkenalan(){
+    function perkenalan($nama,$umur){
         $nama = $this->name;
         $umur = $this->age;
         echo "Halo nama saya $nama, saya sekarang berumur $umur";
@@ -38,7 +38,7 @@ class Emplyee{
 
 echo "\n";
 $agung = new Person('Agung',18);
-$agung->perkenalan();
+$agung->perkenalan('Agung', 20);
 
 echo "\n";
 $mobil = new Car();
